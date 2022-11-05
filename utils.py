@@ -66,7 +66,8 @@ class Utils:
             i = 1
             while i < 10000:
 
-                if i % 2 == 0:
+                k = random.randint(1,100)
+                if k % 2 == 0:
                     r = RandomWords()
 
                     status = r.get_random_word()
@@ -85,11 +86,11 @@ class Utils:
                 # self.driver.refresh()
                 time.sleep(10)
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id = post.get_attribute("data-post-id")
                 print(id)
-                time.sleep(8)
+                time.sleep(5)
                 element6  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id+'"]')
                 element6.click()
 
@@ -97,11 +98,11 @@ class Utils:
                 time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post7 = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id7 = post7.get_attribute("data-post-id")
                 print(id7)
-                time.sleep(8)
+                time.sleep(5)
                 element7  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id7+'"]')
                 element7.click()
 
@@ -109,14 +110,14 @@ class Utils:
                 time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post8 = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id8 = post8.get_attribute("data-post-id")
                 print(id8)
-                time.sleep(8)
+                time.sleep(5)
                 element8  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id8+'"]')
                 element8.click()
-                time.sleep(8)
+                time.sleep(5)
 
                 i +=1
 
@@ -192,8 +193,8 @@ class Utils:
             time.sleep(10)
             i = 1
             while i < 10000:
-
-                if i % 2 == 0:
+                k = random.randint(1,100)
+                if k % 2 == 0:
                     r = RandomWords()
 
                     status = r.get_random_word()
@@ -212,11 +213,11 @@ class Utils:
                 # self.driver.refresh()
                 time.sleep(10)
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id = post.get_attribute("data-post-id")
                 print(id)
-                time.sleep(8)
+                time.sleep(5)
                 element6  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id+'"]')
                 element6.click()
 
@@ -224,11 +225,11 @@ class Utils:
                 time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post7 = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id7 = post7.get_attribute("data-post-id")
                 print(id7)
-                time.sleep(8)
+                time.sleep(5)
                 element7  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id7+'"]')
                 element7.click()
 
@@ -236,14 +237,14 @@ class Utils:
                 time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
-                time.sleep(8)
+                time.sleep(5)
                 post8 = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
                 id8 = post8.get_attribute("data-post-id")
                 print(id8)
-                time.sleep(8)
+                time.sleep(5)
                 element8  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id8+'"]')
                 element8.click()
-                time.sleep(8)
+                time.sleep(5)
 
                 i +=1
 
