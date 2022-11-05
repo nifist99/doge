@@ -1,0 +1,22 @@
+pertama masukan password dan username di config.py
+
+lalu install plugin dengan perintah pip install -r requirements.txt
+atau check di requirements.txt plugin pluginya
+
+terakhir download chroem driver sesui vwesi chreom yg terinstal di pc anda gan.
+
+https://chromedriver.chromium.org/downloads   pastikan chroem driver sesui dengan versi chreom anda
+
+tarhuh chreom driver di C:\chromedriver_win32 atau check posisis dengan ubah code di utils.py
+
+self.driver = webdriver.Chrome(executable_path='C:\chromedriver_win32\chromedriver.exe',options=options)
+
+ubah lokasi sesui di laptop anda atau samakan jga gak pp   
+
+UNTUK requirements
+
+lalu masuk ke folder DAN KETIKAN python run.py    lalu enter maka program akan jalan
+
+SILAHKAN DI COBAAAA JANGAN LUPA SUSCRIBERRRR https://www.youtube.com/c/Tanlalana/channels
+
+UNTUK UPDATE BOT BOT SELANJUTNYAAA

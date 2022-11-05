@@ -190,7 +190,8 @@ class Utils:
     def soup(self):
 
         try:
-            time.sleep(10)
+            self.driver.refresh()
+            time.sleep(15)
             i = 1
             while i < 10000:
                 k = random.randint(1,100)

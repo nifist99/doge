@@ -1,6 +1,8 @@
 
-USERNAME = 'nifist99'
-PASS     = 'November101121'
+#masukan username dan password disini
+
+USERNAME = ''
+PASS     = ''
 
 STATUS   = [
             
