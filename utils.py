@@ -83,7 +83,7 @@ class Utils:
                     element4 = self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="publisher-button"]'))).click()
                     time.sleep(10)
                 # self.driver.refresh()
-                time.sleep(20)
+                time.sleep(10)
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
                 post = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
@@ -92,10 +92,9 @@ class Utils:
                 time.sleep(8)
                 element6  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id+'"]')
                 element6.click()
-                time.sleep(8)
 
                 # self.driver.refresh()
-                time.sleep(30)
+                time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
@@ -105,10 +104,9 @@ class Utils:
                 time.sleep(8)
                 element7  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id7+'"]')
                 element7.click()
-                time.sleep(8)
 
                 # self.driver.refresh()
-                time.sleep(30)
+                time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
@@ -212,7 +210,7 @@ class Utils:
                     element4 = self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="publisher-button"]'))).click()
                     time.sleep(10)
                 # self.driver.refresh()
-                time.sleep(20)
+                time.sleep(10)
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
                 post = self.driver.find_element(By.XPATH, '//*[@id="posts"]/div[1]/div[1]')
@@ -221,10 +219,9 @@ class Utils:
                 time.sleep(8)
                 element6  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id+'"]')
                 element6.click()
-                time.sleep(8)
 
                 # self.driver.refresh()
-                time.sleep(30)
+                time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
@@ -234,10 +231,9 @@ class Utils:
                 time.sleep(8)
                 element7  = self.driver.find_element(By.XPATH, '//*[@id="react_'+id7+'"]')
                 element7.click()
-                time.sleep(8)
 
                 # self.driver.refresh()
-                time.sleep(30)
+                time.sleep(10)
 
                 self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="contnet"]/div/div/div[3]/div[1]/div[5]'))).click()
                 time.sleep(8)
